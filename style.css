@@ -1,0 +1,13 @@
+body{
+    display: grid;
+    grid-template-rows: 10% auto 10%;
+    width: 100vw;
+    height: 100vh;
+}
+#header{
+    background-color: blueviolet;
+    grid-row: 1/2;
+}
+#footer{
+    background-color: slateblue;
+}
